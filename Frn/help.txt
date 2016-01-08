@@ -1,2 +1,0 @@
-The Free Radio Network module is used to connect to Free Radio Network servers.
-To exit the module, send a number sign.
