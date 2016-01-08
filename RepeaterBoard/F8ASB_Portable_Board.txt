@@ -1,0 +1,1 @@
+This repeater uses the F8ASB portable repeater board
