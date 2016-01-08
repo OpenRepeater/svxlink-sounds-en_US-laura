@@ -1,1 +1,1 @@
-metar information not vaalid
+metar information not valid
