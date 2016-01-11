@@ -1,1 +1,0 @@
-This Repeater uses the F8ASB simplex repeater board
