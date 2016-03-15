@@ -1,0 +1,73 @@
+Source: asterisk-core-sounds
+Section: comm
+Priority: extra
+Maintainer: Debian VoIP Team <pkg-voip-maintainers@lists.alioth.debian.org>
+Uploaders: Tzafrir Cohen <tzafrir@debian.org>, Lionel Elie Mamane <lmamane@debian.org>
+Build-Depends: debhelper (>= 7.0.50~)
+Standards-Version: 3.9.3
+Homepage: http://www.asterisk.org/
+
+Package: asterisk-core-sounds-en
+Architecture: all
+Depends: ${misc:Depends}, asterisk-core-sounds-en-gsm | asterisk-core-sounds-en-g722 | asterisk-core-sounds-en-wav
+Conflicts: asterisk-core-sounds-en-gsm ( << 1.4.21-2 )
+Enhances: asterisk
+Provides: asterisk-prompt-en, asterisk-prompt-en-us
+Description: asterisk PBX sound files - US English
+ Asterisk is an Open Source PBX and telephony toolkit. It is, in a
+ sense, middleware between Internet and telephony channels on the
+ bottom, and Internet and telephony applications at the top.
+ .
+ Asterisk includes a set of standard sound files in various formats.
+ The core part of that collection in US English, by voice actress
+ Allison Smith, is contained in various encodings in packages
+ asterisk-core-sounds-en-*; this package registers these through the
+ alternatives system to provide the default "en" (English) and "en_US"
+ (USA English) sounds.
+
+Package: asterisk-core-sounds-en-gsm
+Architecture: all
+Depends: ${misc:Depends}
+Recommends: asterisk-core-sounds-en
+Conflicts: asterisk-sounds-main
+Replaces: asterisk-sounds-main
+Description: asterisk PBX sound files - en-us/gsm
+ Asterisk is an Open Source PBX and telephony toolkit. It is, in a
+ sense, middleware between Internet and telephony channels on the
+ bottom, and Internet and telephony applications at the top.
+ .
+ Asterisk includes a set of standard sound files in various formats.
+ This package contains the core part of that collection in English (US,
+ by Allison Smith) in raw gsm-fr format (Compressed. Takes relatively
+ little space. playable with sox).
+
+Package: asterisk-core-sounds-en-g722
+Architecture: all
+Depends: ${misc:Depends}
+Recommends: asterisk-core-sounds-en
+Description: asterisk PBX sound files - en-us/g722
+ Asterisk is an Open Source PBX and telephony toolkit. It is, in a
+ sense, middleware between Internet and telephony channels on the
+ bottom, and Internet and telephony applications at the top.
+ .
+ Asterisk includes a set of standard sound files in various formats.
+ This package contains the core part of that collection in English (US,
+ by Allison Smith) in raw G.722 format (mildly compressed wide-band
+ codec).
+
+Package: asterisk-core-sounds-en-wav
+Architecture: all
+Depends: ${misc:Depends}
+Recommends: asterisk-core-sounds-en
+Description: asterisk PBX sound files - en-us/wav
+ Asterisk is an Open Source PBX and telephony toolkit. It is, in a
+ sense, middleware between Internet and telephony channels on the
+ bottom, and Internet and telephony applications at the top.
+ .
+ Asterisk includes a set of standard sound files in various formats.
+ This package contains the core part of that collection in English (US,
+ by Allison Smith) in WAV format (8Khz, mono).
+
+
+
+
