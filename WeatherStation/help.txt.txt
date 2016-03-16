@@ -1,0 +1,3 @@
+this module is used for gathering weather from the weather station plugged into the repeater 
+locally and relaying the data via the repeater to the local repeater users via text to speech 
+and audio files automaticly or via dtmf commands.
