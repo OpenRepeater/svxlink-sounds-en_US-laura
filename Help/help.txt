@@ -1,1 +1,6 @@
-This is a Svx Link system. It is a multi purpus voice services system for ham radio use. Svx Link is controlled by DTMF commands consisting of one or more digits followed buy a number sign Sending a single star, will make the system identify itself. The system is divided into several modules, each performing a specific task. You activate a module by sending its module ID followed buy a number sign Most modules will play their help message if sending command 0 when its activated
+This is a Svx Link system. It is a multi purpus voice services system for ham radio use. 
+Svx Link is controlled by DTMF commands consisting of one or more digits followed buy a 
+number sign Sending a single star, will make the system identify itself. The system is 
+divided into several modules, each performing a specific task. You activate a module by 
+sending its module ID followed buy a number sign, Most modules will play their help message 
+if sending command 0 when its activated.
